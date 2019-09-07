@@ -6,7 +6,7 @@ export default[
                 name: "个性音乐播放器",
                 img: "http://vip.chanke.xyz/v06030/chanke/images/musicPlay.png",
                 describe: "Audio创建网页播放器，js进行音乐播放等操作",
-                src: "https://bp-baopeng.github.io/BP-item/musicPlayer/html/"
+                src: "https://bp-baopeng.github.io/BP-item/musicPlayer/"
             },
             {
                 name: "旋转照片墙",
