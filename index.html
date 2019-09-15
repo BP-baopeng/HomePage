@@ -1,1 +1,173 @@
-<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel=icon href=logo.png><title>homepage</title><link href=css/app.2065f5aa.css rel=preload as=style><link href=css/chunk-vendors.3260ecdd.css rel=preload as=style><link href=js/app.d3655d0f.js rel=preload as=script><link href=js/chunk-vendors.63c27c5d.js rel=preload as=script><link href=css/chunk-vendors.3260ecdd.css rel=stylesheet><link href=css/app.2065f5aa.css rel=stylesheet></head><body><noscript><strong>We're sorry but homepage doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script src=js/chunk-vendors.63c27c5d.js></script><script src=js/app.d3655d0f.js></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="web前端,前端个人博客,前端工程师">
+    <meta name="description" content="鲍鹏WEB前端工程师的个人主页">
+    <meta name="author" content="鲍鹏">
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="shortcut icon" href="./logo.png" type="image/x-icon">
+    <title>鲍鹏的个人主页</title>
+</head>
+
+<body>
+    <div id="section1" class="section active">
+        <div id="top" title="顶部">
+            Top
+        </div>
+        <div class="myIntro fades">
+            <h1 class="fade">Hello, 我是鲍鹏</h1>
+            <h3 class="fade">欢迎访问我的个人主页</h3>
+            <button class="fade btn btn-primary" id="abMe">关于我</button>
+            <button id="mypro" class="fade btn btn-default">我的作品</button>
+        </div>
+    </div>
+    <div id="section2" class="section">
+        <!-- 导航条-->
+        <div id="nav-bar" class="bar">
+            <div class="container">
+                <a href="https://bp-baopeng.github.io/">
+                    <div class="fl"><span class="glyphicon glyphicon-flag"></span> 个人博客</div>
+                </a>
+                <ul class="fr nav-ul">
+                    <li><span class="glyphicon glyphicon-user"></span> 关于我</li>
+                    <!-- <li><span class="glyphicon glyphicon-inbox"></span> 求职意向</li> -->
+                    <li><span class="glyphicon glyphicon-paperclip"></span> 作品集</li>
+                    <li><span class="glyphicon glyphicon-bell"></span> 技术掌握</li>
+                    <!-- <li><span class="glyphicon glyphicon-leaf"></span> 我的经历</li> -->
+                    <li><span class="glyphicon glyphicon-envelope"></span> 联系我</li>
+                </ul>
+                <div class="fr more-nav">
+                    <span class="glyphicon glyphicon-list"></span>
+                </div>
+            </div>
+            <ul class="nav-ul nav-xs-ul">
+                <li><span class="glyphicon glyphicon-user"></span> 关于我</li>
+                <!-- <li><span class="glyphicon glyphicon-inbox"></span> 求职意向</li> -->
+                <li><span class="glyphicon glyphicon-paperclip"></span> 作品集</li>
+                <li><span class="glyphicon glyphicon-bell"></span> 技术掌握</li>
+                <!-- <li><span class="glyphicon glyphicon-leaf"></span> 我的经历</li> -->
+                <li><span class="glyphicon glyphicon-envelope"></span> 联系我</li>
+            </ul>
+        </div>
+
+        <!--关于我-->
+        <h2>关于我</h2>
+        <hr>
+        <div class="center fades fade">
+            <div class="my-intro">
+                <p>我叫鲍鹏，23岁，坐标上海，自学前端两年，目前正在找工作。我并不是计算机专业，大学唯一接触过的就是C++。庆幸的是JS与C++很相像，给我很大的信心来学习。</p>
+                <p class="">下面是我的部分个人作品。</p>
+                <p class="">如果您觉得我还不错，可以联系我去贵公司面试。</p>
+            </div>
+        </div>
+    </div>
+    <div id="section3" class="section clearfix">
+        <h2>作品集</h2>
+        <hr>
+
+        <div class="col-md-4 col-xs-6">
+            <div class="item">
+                <a href="https://bp-baopeng.github.io/BP-item/musicPlayer/" target="_black">
+                    <img src="./images/musicPlay.png" alt="">
+                    <h4>个性音乐播放器</h4>
+                    <span>Audio创建网页播放器，js进行音乐播放等操作</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-xs-6">
+            <div class="item">
+                <a href="https://bp-baopeng.github.io/BP-item/Search/" target="_black">
+                    <img src="./images/search.png" alt="">
+                    <h4>搜索框联想词</h4>
+                    <span>在搜索框输入关键词，下面会出现相关联想词</span>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4 col-xs-6">
+            <div class="item">
+                <a href="https://bp-baopeng.github.io/BP-item/Luckdraw/" target="_black">
+                    <img src="./images/luckdraw.png" alt="">
+                    <h4>转盘抽奖</h4>
+                    <span>通过原生JS结合定时器实现随机抽奖动画制作。</span>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4 col-xs-6">
+            <div class="item">
+                <a href="https://bp-baopeng.github.io/BP-item/mouse/" target="_black">
+                    <img src="./images/mouse.png" alt="">
+                    <h4>打地鼠</h4>
+                    <span>通过原生js结合dom操作实现打地鼠小游戏的功能实现</span>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4 col-xs-6">
+            <div class="item">
+                <a href="https://bp-baopeng.github.io/BP-item/vuegram/" target="_black">
+                    <img src="./images/vuegram.png" alt="">
+                    <h4>VUE动态发表</h4>
+                    <span>使用Vue-cli工具进行组件化项目开发，上传图片，添加滤镜，添加文字，即可发表动态</span>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4 col-xs-6">
+            <div class="item">
+                <a href="https://vip.chanke.xyz/v06030/chanke/mymi/" target="_black">
+                    <img src="./images/mymi.png" alt="">
+                    <h4>小米商城（仿站）</h4>
+                    <span>仿写小米闪购首页html与css样式,使用Vue-cli工具进行组件化项目开发，实现登录注册页面跳转</span>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4 col-xs-6">
+            <div class="item">
+                <a href="http://vip.chanke.xyz/v06030/chanke/estudy/" target="_black">
+                    <img src="./images/estudy.png" alt="">
+                    <h4>后台管理系统</h4>
+                    <span>使用Vue-cli,axios,Ant-Design等工具进行组件化项目开发，可以登录老师及学生账号进行后台管理</span>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4 col-xs-6">
+                <div class="item">
+                    <a href="https://bp-baopeng.github.io/BP-item/Canvas/" target="_black">
+                        <img src="./images/CanrouselFigure.png" alt="">
+                        <h4>轮播图</h4>
+                        <span>通过Canvas实现刮刮乐抽奖效果</span>
+                    </a>
+                </div>
+            </div>
+        <div class="col-md-4 col-xs-6">
+            <div class="item">
+                <a href="https://bp-baopeng.github.io/BP-item/Canvas/" target="_black">
+                    <img src="./images/canvas.png" alt="">
+                    <h4>刮刮乐</h4>
+                    <span>通过Canvas实现刮刮乐抽奖效果</span>
+                </a>
+            </div>
+        </div>
+    
+    </div>
+    <div id="section4" class="section">
+        <h2>技术掌握</h2>
+        <hr>
+            <div style="height: 1000px;"></div>
+    </div>
+    <div id="section5" class="section">
+        <h2>联系我</h2>
+        <hr>
+        <div style="height: 1000px;"></div>
+    </div>
+    <script src="./jquery-3.4.1.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
